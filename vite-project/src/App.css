@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ 
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+ }
+ h1 {
+  font-family: 'Poppins', sans-serif; 
+ }
+
+.App {
+  text-align: center;
+  color: white;
+  background-color: #404FED;
+}
+.App header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #404FED;
+}
+.logo {
+ height: 30px;
+ width: 100px;
+}
+.menu {
+  height: 30px;
+}
+.discored-background {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-position: absolute;
+  left: 400px;
+  width: 550px;
+  height: 100%;
+  padding: 20px;
+}
+.content {
+  max-width: 600px;
+  text-align: left;
+  
+}
+.discored-background button {
+  padding: 10px 30px;
+  border-radius: 100px;
+}
+#browser-btn {
+  color: white;
+  background-color: black;
+  margin: 20px 0;
+}
+
+#background-img {
+  width: 400px;
+  height: 300px;
+  margin: auto 0px 0px 170px;
+}
+
+
+
+
+
